@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+}
+
+.header-img {
+  display: flex;
+  margin: 50px;
+  width: 50%;
+  height: 50%;
+  max-width: 70%;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  font-size: 24px;
+  background-color: #000;
+  color: #fff;
+  padding: 0 5%;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+nav a:visited {
+  color: #0f0f0f;
+}
+section {
+  margin: 5% 12%;
+}
+#social {
+  text-align: right;
+  
+}
+p {
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  font-family: 'Quicksand', sans-serif;
+}
+.description {
+  font-size: 32px;
+  text-align: justify;
+  font-family: 'Amatic SC', cursive;
+  line-height: 1.1;
+  padding-top: 20px;
+}
+
+i {
+  font-size: 30px;
+  padding-top: 30px;
+   
+}
+.fa-facebook {
+  padding-right: 5px;
+}
+@media only screen and (min-width: 525px) {
+  .header-img {
+    width: 30%;
+    height: auto;
+  }
+  p {
+    font-size: 38px;
+  }
+}
